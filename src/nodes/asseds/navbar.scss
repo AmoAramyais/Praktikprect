@@ -1,0 +1,29 @@
+.nav{
+    background-color: #fff;
+    box-shadow: 0px 5px 3px 3px;
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+    margin: 0 auto;
+    align-items: center;
+    h2{
+        font-size: 30px;
+        font-family:sans-serif;
+        margin-right: 2rem;
+        color: #5cb85c;
+    }
+    ul{
+        display: flex;
+        list-style: none;
+        li{
+            font-size: 25px;;
+            padding:  5px;
+            a {
+                color:#B2B2B2;
+                text-decoration: none;
+                &:hover{color: grey}
+            }
+        }
+    }
+
+}
